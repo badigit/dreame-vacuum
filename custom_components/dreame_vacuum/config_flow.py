@@ -229,6 +229,7 @@ MIJIA_MODELS = [
     "dreame.vacuum.p2008",
     "xiaomi.vacuum.d103cn",
     "xiaomi.vacuum.d102",
+    "xiaomi.vacuum.d110ch", #d110
     "xiaomi.vacuum.c107",
     "xiaomi.vacuum.c102gl",
     "xiaomi.vacuum.c102cn",

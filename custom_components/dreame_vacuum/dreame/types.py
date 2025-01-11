@@ -1811,6 +1811,7 @@ class FurnitureType(IntEnum):
     FLOOR_MIRROR = 23
     L_SHAPED_SOFA = 24
     ROUND_COFFEE_TABLE = 25
+    NEW_TYPE26 = 26  #xdee debug
 
 
 class CleansetType(IntEnum):

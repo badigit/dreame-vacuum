@@ -2756,7 +2756,10 @@ class DreameVacuumMapDecoder:
             raw_map = values[0]
 
         raw_map = base64.decodebytes(raw_map.encode("utf8"))
-
+        
+        _LOGGER.debug("IV: %s, Key: %s", iv, key) # xdee try debug d110
+        _LOGGER.debug("raw_map (base64 decoded): %s", raw_map) # xdee try debug d110
+        
         if key is not None:
             if iv is None:
                 iv = ""
